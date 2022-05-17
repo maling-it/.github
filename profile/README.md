@@ -1,7 +1,7 @@
 ## Hi there 👋
 
 
-![Metrics](../github-metrics.svg)
+![Metrics](https://github.com/maling-it/.github/blob/main/github-metrics.svg)
 
 <!--
 
