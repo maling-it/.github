@@ -1,5 +1,8 @@
 ## Hi there 👋
 
+
+![Metrics](../github-metrics.svg)
+
 <!--
 
 **Here are some ideas to get you started:**
