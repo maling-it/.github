@@ -40,6 +40,8 @@ jobs:
           plugin_languages_threshold: 0%
           plugin_repositories: 100
           # plugin_repositories: yes
+          plugin_pagespeed: yes
+          plugin_pagespeed_url: .user.website
           plugin_repositories_affiliations: owner
           plugin_repositories_batch: 100
           plugin_repositories_featured: maling-it/maling-it.github.io
