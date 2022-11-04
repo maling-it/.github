@@ -28,6 +28,28 @@ jobs:
           plugin_achievements_display: compact
           plugin_fortune: yes
           
+      - name: 🦑 General
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: images/general.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: header, activity, community, repositories, metadata
+          base_indepth: yes
+          config_timezone: Asia/Jakarta
+          output_action: none
+          output_condition: data-changed
+          plugin_introduction: yes
+          plugin_introduction_title: yes
+          plugin_isocalendar: yes
+          plugin_topics: yes
+          plugin_topics_limit: 0
+          plugin_topics_mode: icons
+          plugin_notable: yes
+          plugin_discussions: yes
+          plugin_followup: yes
+          plugin_followup_archived: yes
+          plugin_followup_sections: repositories
       - name: Push to github
         run: |
           set +e
